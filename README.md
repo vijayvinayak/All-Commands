@@ -1,7 +1,6 @@
 # All-Commands
 
 
-
 1.	aws sts get-caller-identity: This AWS CLI command is used to retrieve information about the AWS identity making the API request. It returns details about the AWS account and the IAM user or role associated with the credentials used to authenticate the request.
 2.	aws eks --region eu-west-1 update-kubeconfig --name cinchy_dev: This AWS CLI command is used to update the kubeconfig file for an Amazon Elastic Kubernetes Service (EKS) cluster. It updates the kubeconfig with the necessary authentication and cluster information to interact with the "cinchy_dev" EKS cluster located in the "eu-west-1" region.
 3.	kubectl get pods --kubeconfig ./.kube/config: This command uses kubectl to retrieve information about the pods in the currently configured Kubernetes cluster. The --kubeconfig flag specifies the path to the kubeconfig file that contains the necessary credentials and cluster information.
